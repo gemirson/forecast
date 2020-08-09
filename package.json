@@ -1,0 +1,9 @@
+{
+  "name": "Forecast",
+  "version": "1.0.0",
+  "description": "Forecast",
+  "main": "index.js",
+  "repository": "https://github.com/gemirson/forecast.git",
+  "author": "Gemirson <gemirson.silva@gmail.com>",
+  "license": "MIT"
+}
