@@ -5,5 +5,17 @@
   "main": "index.js",
   "repository": "https://github.com/gemirson/forecast.git",
   "author": "Gemirson <gemirson.silva@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
 }
